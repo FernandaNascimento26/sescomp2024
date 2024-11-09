@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+      "allowJs": true,
+      "checkJs": true,
+      "outDir": "./dist",
+      "target": "es6",
+      "module": "commonjs"
+  },
+  "include": ["src/**/*"]
+}
+
+/*
+
+Essas opções habilitam o suporte a arquivos JavaScript (allowJs: true)
+e ativam a verificação de tipos nos arquivos JavaScript (checkJs: true). 
+
+Assim, o TypeScript vai detectar alguns erros nos arquivos JavaScript, 
+o que ajuda a garantir a qualidade do código antes de migrarmos completamente para TypeScript
+*/
